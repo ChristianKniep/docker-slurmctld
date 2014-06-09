@@ -1,4 +1,4 @@
-docker-slurmctld
-================
+docker-slurm
+============
 
-Image that holds slurm controll daemon
+Docker image to provide the resource scheduler SLURM
