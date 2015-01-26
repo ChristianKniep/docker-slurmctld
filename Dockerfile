@@ -9,4 +9,5 @@ ADD root/cluser_ssh.tar /root/
 ADD root/bin/start_slurmctld.sh /root/bin/
 ADD etc/supervisord.d/confd_update_slurm.ini /etc/supervisord.d/confd_update_slurm.ini
 
-CMD /bin/supervisord -c /etc/supervisord.conf
+## Temporary while in flight mode
+ADD root/bin/confd_update_slurm.py /root/bin/
